@@ -13,7 +13,7 @@ export default function About() {
 			<div className="container about__container">
 				<div className="about__me">
 					<div className="about__me-image">
-						<div className="img-mask">
+						<div className="about-img-mask">
 							<img src={ME} alt="About image" />
 						</div>
 					</div>

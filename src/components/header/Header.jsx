@@ -13,7 +13,7 @@ export default function Header() {
 				<h5 className="text-light">Web Developer</h5>
 				<Cta />
 				<HeaderSocials />
-				<div className="me">
+				<div className="me-image me-img-mask">
 					<img src={ME} alt="me" />
 				</div>
 				<a href="#contact" className="scroll__down">Scroll Down</a>
