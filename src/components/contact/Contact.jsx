@@ -17,7 +17,7 @@ const contact_options = [
 		subtitle: "+54 11 6579-9309",
 		ref: "https://wa.me/+541165799309",
 		text: "Send a message",
-	}
+	},
 ];
 
 export default function Contact() {
@@ -31,10 +31,16 @@ export default function Contact() {
 						({ id, title, subtitle, ref, text }) => {
 							return (
 								<article id={id} className="contact__option">
-									<MdOutlineEmail className="contact__option-icon" />
+									{title === "Email" ? (
+										<MdOutlineEmail className="contact__option-icon" />
+									) : (
+										<BsWhatsapp className="contact__option-icon" />
+									)}
 									<h4>{title}</h4>
 									<h5>{subtitle}</h5>
-									<a href={ref} target={"_blank"}>{text}</a>
+									<a href={ref} target={"_blank"}>
+										{text}
+									</a>
 								</article>
 							);
 						}

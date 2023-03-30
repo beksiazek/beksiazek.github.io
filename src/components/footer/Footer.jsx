@@ -5,7 +5,8 @@ import "./footer.css";
 export default function Footer() {
   return (
     <footer>
-      <a href="#" className='footer__logo'>VORTEX</a>
+      <a href="#" className='footer__logo'><h3>渦</h3>
+      <h6>UZU</h6></a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -16,7 +17,7 @@ export default function Footer() {
       </ul>
       <FooterSocials />
       <div className="footer__copyright">
-        <small>&copy; Vortex Software development. All rights reserved.</small>
+        <small>&copy; Uzu Software development. All rights reserved.</small>
       </div>
     </footer>
   )
