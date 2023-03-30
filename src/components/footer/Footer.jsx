@@ -1,10 +1,11 @@
 import React from 'react';
+import FooterSocials from './FooterSocials';
 import "./footer.css";
 
 export default function Footer() {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Vortex</a>
+      <a href="#" className='footer__logo'>VORTEX</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -13,10 +14,9 @@ export default function Footer() {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div className="footer__socials">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+      <FooterSocials />
+      <div className="footer__copyright">
+        <small>&copy; Vortex Software development. All rights reserved.</small>
       </div>
     </footer>
   )
