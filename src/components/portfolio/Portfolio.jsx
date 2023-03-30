@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import Momo_img from "../../assets/portfolio/momo-logo.png";
+import This_site from "../../assets/portfolio/this-site.png";
 
 const portfolio_items = [
 	{
@@ -11,6 +12,14 @@ const portfolio_items = [
 		repo: "",
 		link: "https://momomanga.com",
 	},
+	{
+		id: 2,
+		image: This_site,
+		img_alt: "This site's logo",
+		title: "This, my own Web Portfolio!",
+		repo: "https://github.com/beksiazek/portfolio-ksiazek",
+		link: "",
+	}
 ];
 
 export default function Portfolio() {
