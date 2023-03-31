@@ -68,6 +68,13 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    transition: var(--transition);
+}
+
+.about__content p:hover {
+    border-radius: 20px;
+    padding: 0.8rem;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 1024px) {

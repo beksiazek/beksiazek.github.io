@@ -28,20 +28,23 @@ export default function About() {
 						<article className="about__card">
 							<FiUsers className="about__icon" />
 							<h5>Clients</h5>
-							<small>A lot of clients worldwide</small>
+							<small>Always open to new offers!</small>
 						</article>
 						<article className="about__card">
 							<VscFolderLibrary className="about__icon" />
 							<h5>Projects</h5>
-							<small>3 Completed</small>
+							<small>4 Completed</small>
 						</article>
 					</div>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Ipsa itaque doloremque suscipit sint neque cupiditate
-						quisquam consequatur, voluptatem expedita assumenda,
-						molestiae, vitae dignissimos repellat aspernatur
-						adipisci cumque a aliquid nemo!
+						I like being able to materialize my ideas and help
+						others to develop theirs. Always learning, I am a
+						self-taught person who is passionate about finding
+						creative and original solutions hand in hand with
+						optimal results. Plus, I want to be able to
+						contribute to the proper development and use of digital
+						technologies. <br />If you have a great idea and want to carry
+						it out, I hope you will contact me!
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk

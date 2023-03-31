@@ -15,23 +15,23 @@ export default function Services() {
 					<ul className="service__list">
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Define the type of user to whom the product is directed.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Design UI elements and tools.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Test UI elements.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Collaborate with other designers and marketing specialists.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Build a solid engagement between the product and the user.</p>
 						</li>
 					</ul>
 				</article>
