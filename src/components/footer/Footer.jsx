@@ -17,6 +17,7 @@ export default function Footer() {
       </ul>
       <FooterSocials />
       <div className="footer__copyright">
+        <small>Inspired by EGATOR React Web Portfolio design.</small>
         <small>&copy; Uzu Software development. All rights reserved.</small>
       </div>
     </footer>

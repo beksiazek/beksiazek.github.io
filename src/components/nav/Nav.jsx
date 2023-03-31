@@ -9,41 +9,56 @@ export default function Nav() {
 	const [activeNav, setActiveNav] = useState("#");
 	return (
 		<nav>
-			<a
-				href="#"
-				onClick={() => setActiveNav("#")}
-				className={activeNav === "#" ? "active" : ""}
-			>
-				<BiHomeAlt2 />
-			</a>
-			<a
-				href="#about"
-				onClick={() => setActiveNav("#about")}
-				className={activeNav === "#about" ? "active" : ""}
-			>
-				<AiOutlineUser />
-			</a>
-			<a
-				href="#experience"
-				onClick={() => setActiveNav("#experience")}
-				className={activeNav === "#experience" ? "active" : ""}
-			>
-				<BiBook />
-			</a>
-			<a
-				href="#services"
-				onClick={() => setActiveNav("#services")}
-				className={activeNav === "#services" ? "active" : ""}
-			>
-				<RiServiceLine />
-			</a>
-			<a
-				href="#contact"
-				onClick={() => setActiveNav("#contact")}
-				className={activeNav === "#contact" ? "active" : ""}
-			>
-				<BiMessageSquareDetail />
-			</a>
+			<div className="tooltip">
+				<span className="tooltiptext">Home</span>
+				<a
+					href="#"
+					onClick={() => setActiveNav("#")}
+					className={activeNav === "#" ? "active" : ""}
+				>
+					<BiHomeAlt2 />
+				</a>
+			</div>
+			<div className="tooltip">
+				<span className="tooltiptext">About</span>
+				<a
+					href="#about"
+					onClick={() => setActiveNav("#about")}
+					className={activeNav === "#about" ? "active" : ""}
+				>
+					<AiOutlineUser />
+				</a>
+			</div>
+			<div className="tooltip">
+				<span className="tooltiptext">Experience</span>
+				<a
+					href="#experience"
+					onClick={() => setActiveNav("#experience")}
+					className={activeNav === "#experience" ? "active" : ""}
+				>
+					<BiBook />
+				</a>
+			</div>
+			<div className="tooltip">
+				<span className="tooltiptext">Services</span>
+				<a
+					href="#services"
+					onClick={() => setActiveNav("#services")}
+					className={activeNav === "#services" ? "active" : ""}
+				>
+					<RiServiceLine />
+				</a>
+			</div>
+			<div className="tooltip">
+				<span className="tooltiptext">Contact</span>
+				<a
+					href="#contact"
+					onClick={() => setActiveNav("#contact")}
+					className={activeNav === "#contact" ? "active" : ""}
+				>
+					<BiMessageSquareDetail />
+				</a>
+			</div>
 		</nav>
 	);
 }
