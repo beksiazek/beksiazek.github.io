@@ -42,23 +42,23 @@ export default function Services() {
 					<ul className="service__list">
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Website designing, building, or maintaining.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Directing or performing Website updates.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Editing, writing, or designing Website content.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Identifying and correcting bugs and issues.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Determine user needs by technical requirements.</p>
 						</li>
 					</ul>
 				</article>
@@ -69,23 +69,23 @@ export default function Services() {
 					<ul className="service__list">
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Research and analyze resources available.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Assemble the software required.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Data entry and management of databases.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Troubleshooting and finding solutions for possible issues.</p>
 						</li>
 						<li>
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+							<p>Optimization of existing solutions.</p>
 						</li>
 					</ul>
 				</article>

@@ -7,8 +7,8 @@ const contact_options = [
 	{
 		id: 1,
 		title: "Email",
-		subtitle: "kdummy@gmail.com",
-		ref: "mailto:kdummy@gmail.com",
+		subtitle: "beksiazek@gmail.com",
+		ref: "mailto:beksiazek@gmail.com",
 		text: "Send a message",
 	},
 	{

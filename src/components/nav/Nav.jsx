@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./nav.css";
-import { AiOutlineUser } from "react-icons/ai";
+import { AiOutlineUser, AiOutlineAppstore } from "react-icons/ai";
 import { BiHomeAlt2, BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 
@@ -10,7 +10,7 @@ export default function Nav() {
 	return (
 		<nav>
 			<div className="tooltip">
-				<span className="tooltiptext">Home</span>
+				<span className="tooltiptext">Hello</span>
 				<a
 					href="#"
 					onClick={() => setActiveNav("#")}
@@ -20,7 +20,7 @@ export default function Nav() {
 				</a>
 			</div>
 			<div className="tooltip">
-				<span className="tooltiptext">About</span>
+				<span className="tooltiptext">About Me</span>
 				<a
 					href="#about"
 					onClick={() => setActiveNav("#about")}
@@ -40,13 +40,13 @@ export default function Nav() {
 				</a>
 			</div>
 			<div className="tooltip">
-				<span className="tooltiptext">Services</span>
+				<span className="tooltiptext">Portfolio</span>
 				<a
-					href="#services"
-					onClick={() => setActiveNav("#services")}
-					className={activeNav === "#services" ? "active" : ""}
+					href="#portfolio"
+					onClick={() => setActiveNav("#portfolio")}
+					className={activeNav === "#portfolio" ? "active" : ""}
 				>
-					<RiServiceLine />
+					<AiOutlineAppstore />
 				</a>
 			</div>
 			<div className="tooltip">
