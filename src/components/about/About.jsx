@@ -9,7 +9,7 @@ export default function About() {
 	return (
 		<section id="about">
 			<h5>Get to know</h5>
-			<h2>ABout Me</h2>
+			<h2>About Me</h2>
 			<div className="container about__container">
 				<div className="about__me">
 					<div className="about__me-image">
