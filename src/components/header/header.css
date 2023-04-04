@@ -1,7 +1,6 @@
 header {
-    height: 110vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    height: 100vh;
+    padding-top: 4rem;
 }
 
 .header__container {
@@ -25,6 +24,7 @@ header {
     position: absolute;
     left: 0;
     bottom: 6rem;
+    font-size: 1.9rem;
 }
 
 .header__socials::after {
@@ -47,8 +47,8 @@ header {
 }
 
 .me-img-mask {
-    -webkit-mask-image: linear-gradient(black, black 60%, transparent 80%);
-    mask-image: linear-gradient(black, black 60%, transparent 80%);
+    -webkit-mask-image: linear-gradient(black, black 85%, transparent 95%);
+    mask-image: linear-gradient(black, black 85%, transparent 95%);
 }
 
 .scroll__down {
@@ -57,7 +57,7 @@ header {
     bottom: 8rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 1024px) {

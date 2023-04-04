@@ -8,7 +8,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    background: linear-gradient(10deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
@@ -21,8 +21,8 @@
 }
 
 .about-img-mask {
-    -webkit-mask-image: linear-gradient(black, black 60%, transparent 95%);
-    mask-image: linear-gradient(black, black 60%, transparent 95%);
+    -webkit-mask-image: linear-gradient(black, black 87%, transparent 90%);
+    mask-image: linear-gradient(black, black 87%, transparent 90%);
 }
 
 .about__me-image:hover {
@@ -67,13 +67,16 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
+    padding:0.8rem;
     color: var(--color-light);
     transition: var(--transition);
 }
 
 .about__content p:hover {
     border-radius: 20px;
-    padding: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.9;
     background: rgba(0, 0, 0, 0.3);
 }
 

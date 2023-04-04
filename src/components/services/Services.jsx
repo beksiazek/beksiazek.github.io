@@ -64,7 +64,7 @@ export default function Services() {
 				</article>
 				<article className="service">
 					<div className="service__head">
-						<h3>Sistems Design</h3>
+						<h3>Systems Design</h3>
 					</div>
 					<ul className="service__list">
 						<li>
