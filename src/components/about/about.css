@@ -25,10 +25,6 @@
     mask-image: linear-gradient(black, black 87%, transparent 90%);
 }
 
-.about__me-image:hover {
-    transform: rotate(0deg);
-}
-
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,12 +38,6 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-}
-
-.about__card:hover {
-    background: var(--color-bg-clear);
-    border-color: var(--color-bg-variant);
-    cursor: default;
 }
 
 .about__icon {
@@ -72,12 +62,24 @@
     transition: var(--transition);
 }
 
-.about__content p:hover {
-    border-radius: 20px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    line-height: 1.9;
-    background: rgba(0, 0, 0, 0.3);
+@media (hover: hover) {
+    .about__me-image:hover {
+        transform: rotate(0deg);
+    }
+
+    .about__card:hover {
+        background: var(--color-bg-clear);
+        border-color: var(--color-bg-variant);
+        cursor: default;
+    }
+
+    .about__content p:hover {
+        border-radius: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        line-height: 1.9;
+        background: rgba(0, 0, 0, 0.3);
+    }
 }
 
 @media screen and (max-width: 1024px) {

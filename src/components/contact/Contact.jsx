@@ -30,7 +30,7 @@ export default function Contact() {
 					{contact_options.map(
 						({ id, title, subtitle, ref, text }) => {
 							return (
-								<article id={id} className="contact__option">
+								<article key={id} className="contact__option">
 									{title === "Email" ? (
 										<MdOutlineEmail className="contact__option-icon" />
 									) : (

@@ -23,10 +23,6 @@ nav a {
     font-size: 1.1rem;
 }
 
-nav a:hover {
-    background: rgba(0, 0, 0, 0.15);
-}
-
 nav a.active {
     background: rgba(0, 0, 0, 0.3);
     color: var(--color-white);
@@ -53,10 +49,16 @@ nav a.active {
     opacity: 0;
     transition: opacity 0.4s;
 }
-  
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+
+@media (hover: hover) {
+    nav a:hover {
+        background: rgba(0, 0, 0, 0.15);
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,9 +67,11 @@ nav a.active {
         bottom: 2rem;
         top:auto;
     }
+}
 
-    .tooltip:hover .tooltiptext {
-        visibility: hidden;
-        opacity: 0;
+@media screen and (max-width: 600px) {
+    nav {
+        gap: 0.5rem;
+        padding: 0.7rem 1.1rem;
     }
 }

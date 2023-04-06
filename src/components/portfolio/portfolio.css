@@ -12,11 +12,6 @@
     transition: var(--transition);
 }
 
-.portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: var(--color-bg);
-}
-
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
@@ -38,6 +33,13 @@
 
 .center {
     justify-content: center;
+}
+
+@media (hover: hover) {
+    .portfolio__item:hover {
+        border-color: var(--color-primary-variant);
+        background: var(--color-bg);
+    }
 }
 
 @media screen and (max-width: 1024px) {

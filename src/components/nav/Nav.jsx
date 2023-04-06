@@ -1,20 +1,25 @@
 import React from "react";
-import { useState } from "react";
 import "./nav.css";
 import { AiOutlineUser, AiOutlineAppstore } from "react-icons/ai";
 import { BiHomeAlt2, BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+import useScrollSpy from "../../scripts/scrollSpy";
+
+
 
 export default function Nav() {
-	const [activeNav, setActiveNav] = useState("#");
+	const sectionIds = ["header"];
+	document.querySelectorAll("section").forEach( section => {
+		sectionIds.push(section.getAttribute("id"));
+	})
+	const activeSectionId = useScrollSpy(sectionIds);
 	return (
 		<nav>
 			<div className="tooltip">
 				<span className="tooltiptext">Hello</span>
 				<a
 					href="#"
-					onClick={() => setActiveNav("#")}
-					className={activeNav === "#" ? "active" : ""}
+					className={activeSectionId === "header" ? "active" : undefined}
 				>
 					<BiHomeAlt2 />
 				</a>
@@ -23,8 +28,7 @@ export default function Nav() {
 				<span className="tooltiptext">About Me</span>
 				<a
 					href="#about"
-					onClick={() => setActiveNav("#about")}
-					className={activeNav === "#about" ? "active" : ""}
+					className={activeSectionId === "about" ? "active" : undefined}
 				>
 					<AiOutlineUser />
 				</a>
@@ -33,18 +37,25 @@ export default function Nav() {
 				<span className="tooltiptext">Experience</span>
 				<a
 					href="#experience"
-					onClick={() => setActiveNav("#experience")}
-					className={activeNav === "#experience" ? "active" : ""}
+					className={activeSectionId === "experience" ? "active" : undefined}
 				>
 					<BiBook />
+				</a>
+			</div>
+			<div className="tooltip">
+				<span className="tooltiptext">Services</span>
+				<a
+					href="#services"
+					className={activeSectionId === "services" ? "active" : undefined}
+				>
+					<RiServiceLine />
 				</a>
 			</div>
 			<div className="tooltip">
 				<span className="tooltiptext">Portfolio</span>
 				<a
 					href="#portfolio"
-					onClick={() => setActiveNav("#portfolio")}
-					className={activeNav === "#portfolio" ? "active" : ""}
+					className={activeSectionId === "portfolio" ? "active" : undefined}
 				>
 					<AiOutlineAppstore />
 				</a>
@@ -53,8 +64,7 @@ export default function Nav() {
 				<span className="tooltiptext">Contact</span>
 				<a
 					href="#contact"
-					onClick={() => setActiveNav("#contact")}
-					className={activeNav === "#contact" ? "active" : ""}
+					className={activeSectionId === "contact" ? "active" : undefined}
 				>
 					<BiMessageSquareDetail />
 				</a>

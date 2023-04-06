@@ -12,12 +12,6 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
-    background: var(--color-bg-clear);
-    border-color: var(--color-bg-variant);
-    cursor: default;
-}
-
 .experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
@@ -38,6 +32,14 @@
 .experience__detail-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+@media (hover: hover) {
+    .experience__container > div:hover {
+        background: var(--color-bg-clear);
+        border-color: var(--color-bg-variant);
+        cursor: default;
+    }
 }
 
 @media screen and (max-width: 1024px) {

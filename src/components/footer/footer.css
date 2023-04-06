@@ -41,18 +41,20 @@ footer a {
     border: 1px solid transparent;
 }
 
-.footer__socials a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
-}
-
 .footer__copyright {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 4rem;
     color: var(--color-bg);
+}
+
+@media (hover: hover) {
+    .footer__socials a:hover {
+        background: transparent;
+        color: var(--color-bg);
+        border-color: var(--color-bg);
+    }
 }
 
 @media screen and (max-width: 600px) {
