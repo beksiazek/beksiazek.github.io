@@ -18,7 +18,7 @@ export default function useScrollSpy(ids, offset = 0) {
 			if (!element) return { id, top: -1, bottom: -1 };
   
 			const rect = element.getBoundingClientRect();
-			const top = clamp(rect.top + scroll - (offset + 220));
+			const top = clamp(rect.top + scroll - (offset + 230));
 			const bottom = clamp(rect.bottom + scroll - offset);
   
 			return { id, top, bottom };

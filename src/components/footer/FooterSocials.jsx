@@ -6,7 +6,7 @@ export default function FooterSocials() {
     <div className='footer__socials'>
         <a href='https://www.linkedin.com/in/brian-ksiazek/' target="_blank"><BsLinkedin /></a>
         <a href='https://github.com/beksiazek' target="_blank"><BsGithub /></a>
-        <a href="https://twitter.com" target={"_blank"}><BsTwitter /></a>
+        <a href="https://twitter.com/beksiazek" target={"_blank"}><BsTwitter /></a>
     </div>
   )
 }
