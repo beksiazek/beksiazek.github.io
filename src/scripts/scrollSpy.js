@@ -4,7 +4,7 @@ const clamp = (value) => Math.max(0, value);
 
 const isBetween = (value, floor, ceil) => value >= floor && value <= ceil;
 
-export default function useScrollSpy(ids, offset = 100) {
+export default function useScrollSpy(ids, offset = 0) {
 	const [activeId, setActiveId] = useState("");
   
 	useLayoutEffect(() => {
@@ -18,7 +18,7 @@ export default function useScrollSpy(ids, offset = 100) {
 			if (!element) return { id, top: -1, bottom: -1 };
   
 			const rect = element.getBoundingClientRect();
-			const top = clamp(rect.top + scroll - offset);
+			const top = clamp(rect.top + scroll - (offset + 220));
 			const bottom = clamp(rect.bottom + scroll - offset);
   
 			return { id, top, bottom };
