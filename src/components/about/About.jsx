@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import { aboutText } from "../../text/textEn";
 import ME from "../../assets/about-me.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
@@ -8,8 +9,8 @@ import { VscFolderLibrary } from "react-icons/vsc";
 export default function About() {
 	return (
 		<section id="about">
-			<h5>Get to know</h5>
-			<h2>About Me</h2>
+			<h5>{aboutText.line1}</h5>
+			<h2>{aboutText.line2}</h2>
 			<div className="container about__container">
 				<div className="about__me">
 					<div className="about__me-image">
@@ -22,32 +23,23 @@ export default function About() {
 					<div className="about__cards">
 						<article className="about__card">
 							<FaAward className="about__icon" />
-							<h5>Experience</h5>
-							<small>1+ Year working</small>
+							<h5>{aboutText.card1.line1}</h5>
+							<small>{aboutText.card1.line2}</small>
 						</article>
 						<article className="about__card">
 							<FiUsers className="about__icon" />
-							<h5>Clients</h5>
-							<small>Always open to new offers!</small>
+							<h5>{aboutText.card2.line1}</h5>
+							<small>{aboutText.card2.line2}</small>
 						</article>
 						<article className="about__card">
 							<VscFolderLibrary className="about__icon" />
-							<h5>Projects</h5>
-							<small>4 Completed</small>
+							<h5>{aboutText.card3.line1}</h5>
+							<small>{aboutText.card3.line2}</small>
 						</article>
 					</div>
-					<p>
-						I like being able to materialize my ideas and help
-						others to develop theirs. Always learning, I am a
-						self-taught person who is passionate about finding
-						creative and original solutions hand in hand with
-						optimal results. Plus, I want to be able to
-						contribute to the proper development and use of digital
-						technologies. <br />If you have a great idea and want to carry
-						it out, I hope you will contact me!
-					</p>
+					<p>{aboutText.par1}<br/>{aboutText.par2}</p>
 					<a href="#contact" className="btn btn-primary">
-						Let's Talk
+						{aboutText.talk}
 					</a>
 				</div>
 			</div>
