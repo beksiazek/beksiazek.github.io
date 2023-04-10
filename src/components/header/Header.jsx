@@ -5,7 +5,7 @@ import HeaderSocials from "./HeaderSocials";
 import ME from "../../assets/me.png";
 
 export default function Header(props) {
-	const { text } = props;
+	const { text, cv } = props;
 
 	return (
 		text && (
@@ -14,7 +14,7 @@ export default function Header(props) {
 					<h5>{text.line1}</h5>
 					<h1>{text.line2}</h1>
 					<h5 className="text-light">{text.line3}</h5>
-					<Cta text={text.cta} />
+					<Cta cv={cv} text={text.cta} />
 					<HeaderSocials />
 					<div className="header__image">
 						<div className="me-image me-img-mask">
