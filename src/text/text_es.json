@@ -1,0 +1,88 @@
+{
+	"nav": {
+		"header": "Hola!",
+		"about": "Acerca de mí",
+		"experience": "Experiencia",
+		"services": "Servicios",
+		"portfolio": "Portfolio",
+		"contact": "Contacto"
+	},
+	"header": {
+		"line1": "Hola! Yo soy",
+		"line2": "Brian Ksiazek",
+		"line3": "Desarrollador Web",
+		"cta": { "cv": "Descargar CV", "talk": "Hablemos!" },
+		"scroll": "Ir abajo  >>"
+	},
+	"about": {
+		"line1": "Conoce un poco",
+		"line2": "Acerca de Mí",
+		"card1": { "line1": "Experiencia", "line2": "+1 Año desarrollando" },
+		"card2": {
+			"line1": "Clientes",
+			"line2": "Siempre esperando nuevas propuestas!"
+		},
+		"card3": { "line1": "Proyectos", "line2": "4 Completos" },
+		"par1": "Me gusta poder materializar mis ideas y ayudar a otros a desarrollar las suyas. Siempre aprendiendo, soy una persona autodidacta apasionada por encontrar soluciones creativas y originales de la mano de resultados óptimos. Además, quiero poder contribuir al buen desarrollo y uso de las tecnologías digitales.",
+		"par2": "Si tenés una gran idea y querés llevarla a cabo, espero que me contactes!",
+		"talk": "Hablemos!"
+	},
+	"experience": {
+		"line1": "Qué habilidades tengo",
+		"line2": "Mi Experiencia",
+		"frontend": "Desarrollo Frontend",
+		"backend": "Desarrollo Backend",
+		"basic": "Básico",
+		"intermediate": "Intermedio",
+		"advanced": "Avanzado"
+	},
+	"services": {
+		"line1": "Qué ofrezco",
+		"line2": "Servicios",
+		"ui_ux": {
+			"title": "Diseño UI/UX",
+			"items": [
+				"Definir a qué público está dirigido el producto.",
+				"Diseño de elementos y herramientas de la IU.",
+				"Testeo de elementos de la IU.",
+				"Colaboración con otros diseñandores y especialistas de marketing.",
+				"Compromiso en generar un vínculo sólido entre el cliente y el producto."
+			]
+		},
+		"web": {
+			"title": "Desarrollo Web",
+			"items": [
+				"Diseño, construcción y mantenimiento de sitios Web.",
+				"Actualización de sitios.",
+				"Edición, creación y diseño de contenido Web.",
+				"Localización y correción de errores.",
+				"Definición de las necesidades del usuario según requisitos técnicos."
+			]
+		},
+		"systems": {
+			"title": "Diseño de Sistemas",
+			"items": [
+				"Investigación y análisis de los recursos disponibles.",
+				"Integración del software requerido.",
+				"Data entry y administración de bases de datos.",
+				"Resolución de problemas y búsqueda de soluciones.",
+				"Optimización de soluciones existentes."
+			]
+		}
+	},
+	"portfolio": {
+		"line1": "Trabajos recientes",
+		"line2": "Portfolio",
+		"to_repo": "Repo en Github",
+		"to_site": "Ir al Sitio"
+	},
+	"contact": {
+		"line1": "Pongámonos en contacto",
+		"line2": "Comunicate Conmigo",
+		"btn": "Enviar un mensaje"
+	},
+	"footer": {
+		"inspo": "Inspirado en un diseño de sitio web React de EGATOR.",
+		"copyright": "© Uzu Software by B. Ksiazek. Todos los derechos reservados."
+	}
+}

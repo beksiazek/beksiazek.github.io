@@ -9,26 +9,26 @@ const contact_options = [
 		title: "Email",
 		subtitle: "beksiazek@gmail.com",
 		ref: "mailto:beksiazek@gmail.com",
-		text: "Send a message",
 	},
 	{
 		id: 2,
 		title: "Whatsapp",
 		subtitle: "+54 11 6579-9309",
 		ref: "https://wa.me/+541165799309",
-		text: "Send a message",
 	},
 ];
 
-export default function Contact() {
+export default function Contact(props) {
+	const { text } = props;
+
 	return (
-		<section id="contact">
-			<h5>Get In Touch</h5>
-			<h2>Contact Me</h2>
-			<div className="container contact__container">
-				<div className="contact__options">
-					{contact_options.map(
-						({ id, title, subtitle, ref, text }) => {
+		text && (
+			<section id="contact">
+				<h5>{text.line1}</h5>
+				<h2>{text.line2}</h2>
+				<div className="container contact__container">
+					<div className="contact__options">
+						{contact_options.map(({ id, title, subtitle, ref }) => {
 							return (
 								<article key={id} className="contact__option">
 									{title === "Email" ? (
@@ -39,14 +39,14 @@ export default function Contact() {
 									<h4>{title}</h4>
 									<h5>{subtitle}</h5>
 									<a href={ref} target={"_blank"}>
-										{text}
+										{text.btn}
 									</a>
 								</article>
 							);
-						}
-					)}
+						})}
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		)
 	);
 }

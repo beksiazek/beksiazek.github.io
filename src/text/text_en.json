@@ -1,0 +1,85 @@
+{
+	"nav": {
+		"header": "Hello",
+		"about": "About Me",
+		"experience": "Experience",
+		"services": "Services",
+		"portfolio": "Portfolio",
+		"contact": "Contact"
+	},
+	"header": {
+		"line1": "Hello I'm",
+		"line2": "Brian Ksiazek",
+		"line3": "Web Developer",
+		"cta": { "cv": "Download CV", "talk": "Let's Talk" },
+		"scroll": "Scroll Down  >>"
+	},
+	"about": {
+		"line1": "Get to know",
+		"line2": "About Me",
+		"card1": { "line1": "Experience", "line2": "1+ Year working" },
+		"card2": { "line1": "Clients", "line2": "Always open to new offers!" },
+		"card3": { "line1": "Projects", "line2": "4 Completed" },
+		"par1": "I like being able to materialize my ideas and help others to develop theirs. Always learning, I am a self-taught person who is passionate about finding creative and original solutions hand in hand with optimal results. Plus, I want to be able to contribute to the proper development and use of digital technologies.",
+		"par2": "If you have a great idea and want to carry it out, I hope you will contact me!",
+		"talk": "Let's Talk"
+	},
+	"experience": {
+		"line1": "What skills I Have",
+		"line2": "My Experience",
+		"frontend": "Frontend Development",
+		"backend": "Backend Development",
+		"basic": "Basic",
+		"intermediate": "Intermediate",
+		"advanced": "Advanced"
+	},
+	"services": {
+		"line1": "What I Offer",
+		"line2": "Services",
+		"ui_ux": {
+			"title": "UI/UX Design",
+			"items": [
+				"Define the type of user to whom the product is directed.",
+				"Design UI elements and tools.",
+				"Test UI elements.",
+				"Collaborate with other designers and marketing specialists.",
+				"Build a solid engagement between the product and the user."
+			]
+		},
+		"web": {
+			"title": "Web Development",
+			"items": [
+				"Website designing, building, or maintaining.",
+				"Directing or performing Website updates.",
+				"Editing, writing, or designing Website content.",
+				"Identifying and correcting bugs and issues.",
+				"Determine user needs by technical requirements."
+			]
+		},
+		"systems": {
+			"title": "Systems Design",
+			"items": [
+				"Research and analyze resources available.",
+				"Assemble the software required.",
+				"Data entry and management of databases.",
+				"Troubleshooting and finding solutions for possible issues.",
+				"Optimization of existing solutions."
+			]
+		}
+	},
+	"portfolio": {
+		"line1": "My Recent Work",
+		"line2": "Portfolio",
+		"to_repo": "Github Repo",
+		"to_site": "Go to the Site"
+	},
+	"contact": {
+		"line1": "Get In Touch",
+		"line2": "Contact Me",
+		"btn": "Send a message"
+	},
+	"footer": {
+		"inspo": "Inspired by an EGATOR's React Website design.",
+		"copyright": "© Uzu Software by B. Ksiazek. All rights reserved."
+	}
+}

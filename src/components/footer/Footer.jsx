@@ -2,24 +2,26 @@ import React from 'react';
 import FooterSocials from './FooterSocials';
 import "./footer.css";
 
-export default function Footer() {
-  return (
+export default function Footer(props) {
+  const { navText, footerText } = props;
+
+  return ( navText ? footerText ? 
     <footer>
       <a href="#" className='footer__logo'><h3>渦</h3>
       <h6>UZU</h6></a>
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">{navText.header}</a></li>
+        <li><a href="#about">{navText.about}</a></li>
+        <li><a href="#experience">{navText.experience}</a></li>
+        <li><a href="#services">{navText.services}</a></li>
+        <li><a href="#portfolio">{navText.portfolio}</a></li>
+        <li><a href="#contact">{navText.contact}</a></li>
       </ul>
       <FooterSocials />
       <div className="footer__copyright">
-        <small>Inspired by an EGATOR's React Web Portfolio design.</small>
-        <small>&copy; Uzu Software by B. Ksiazek. All rights reserved.</small>
+        <small>{footerText.inspo}</small>
+        <small>{footerText.copyright}</small>
       </div>
     </footer>
-  )
+  :<footer></footer> : <footer></footer>)
 }

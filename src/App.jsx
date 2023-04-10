@@ -1,6 +1,9 @@
-import React from "react";
-import Header from "./components/header/Header";
+import React, { useState, useEffect } from "react";
+import text_en from "./text/text_en.json";
+import text_es from "./text/text_es.json";
+import LangSelector from "./components/langSelector/LangSelector";
 import Nav from "./components/nav/Nav";
+import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
@@ -9,16 +12,20 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 export default function App() {
+	const [language, setLanguage] = useState(navigator.language.slice(0, 2));
+	const text = language === "en" ? text_en : language === "es" ? text_es : {};
+
 	return (
 		<>
-			<Header />
-			<Nav />
-			<About />
-			<Experience />
-			<Services />
-			<Portfolio />
-			<Contact />
-			<Footer />
+			<LangSelector language={language} setLanguage={setLanguage} />
+			<Nav text={text.nav} />
+			<Header text={text.header} />
+			<About text={text.about} />
+			<Experience text={text.experience} />
+			<Services text={text.services} />
+			<Portfolio language={language} text={text.portfolio} />
+			<Contact text={text.contact} />
+			<Footer navText={text.nav} footerText={text.footer} />
 		</>
 	);
 }
