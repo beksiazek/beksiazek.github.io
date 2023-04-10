@@ -11,7 +11,7 @@
 		"line1": "Hello I'm",
 		"line2": "Brian Ksiazek",
 		"line3": "Web Developer",
-		"cta": { "cv": "Download CV", "talk": "Let's Talk" },
+		"cta": { "cv": "Download CV", "en": "English", "es": "Spanish", "talk": "Let's Talk" },
 		"scroll": "Scroll Down  >>"
 	},
 	"about": {
