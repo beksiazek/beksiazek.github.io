@@ -14,8 +14,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 export default function App() {
-	const [language, setLanguage] = useState(navigator.language.slice(0, 2));
-	const text = language === "en" ? text_en : language === "es" ? text_es : {};
+	const [language, setLanguage] = useState(navigator.language.slice(0, 2) || "en");
+	const text = language === "en" ? text_en : language === "es" ? text_es : text_en;
 
 	return (
 		<>
