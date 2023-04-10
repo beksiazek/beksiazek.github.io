@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.542d4b1e.css",
-    "main.js": "/static/js/main.2f41bc5d.js",
+    "main.js": "/static/js/main.988f3eb1.js",
     "static/media/tl-logo.png": "/static/media/tl-logo.5f53d8afb2505416c5ea.png",
     "static/media/momo-logo.png": "/static/media/momo-logo.37b8bbb0a63c41ad814d.png",
     "static/media/this-site-logo.png": "/static/media/this-site-logo.8920d89fc937ec67fc8c.png",
@@ -12,10 +12,10 @@
     "static/media/CV-BrianKsiazek(ES).pdf": "/static/media/CV-BrianKsiazek(ES).b74310ab24dde2a468e5.pdf",
     "index.html": "/index.html",
     "main.542d4b1e.css.map": "/static/css/main.542d4b1e.css.map",
-    "main.2f41bc5d.js.map": "/static/js/main.2f41bc5d.js.map"
+    "main.988f3eb1.js.map": "/static/js/main.988f3eb1.js.map"
   },
   "entrypoints": [
     "static/css/main.542d4b1e.css",
-    "static/js/main.2f41bc5d.js"
+    "static/js/main.988f3eb1.js"
   ]
 }
