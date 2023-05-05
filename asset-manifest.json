@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.542d4b1e.css",
-    "main.js": "/static/js/main.9613cac5.js",
+    "main.js": "/static/js/main.a1265c77.js",
+    "static/media/CV-BrianKsiazek(ES).pdf": "/static/media/CV-BrianKsiazek(ES).29f4026c44172d69fe61.pdf",
+    "static/media/CV-BrianKsiazek(EN).pdf": "/static/media/CV-BrianKsiazek(EN).bd234753a84558753dc3.pdf",
     "static/media/tl-logo.png": "/static/media/tl-logo.5f53d8afb2505416c5ea.png",
     "static/media/momo-logo.png": "/static/media/momo-logo.37b8bbb0a63c41ad814d.png",
     "static/media/this-site-logo.png": "/static/media/this-site-logo.8920d89fc937ec67fc8c.png",
     "static/media/about-me.png": "/static/media/about-me.b995e021836412d9fe5d.png",
     "static/media/me.png": "/static/media/me.fbed7babe3b0c7fe9035.png",
     "static/media/central-logo.png": "/static/media/central-logo.e630dc1b46e84129a92e.png",
-    "static/media/CV-BrianKsiazek(EN).pdf": "/static/media/CV-BrianKsiazek(EN).366bf07bf3aad0099cf7.pdf",
-    "static/media/CV-BrianKsiazek(ES).pdf": "/static/media/CV-BrianKsiazek(ES).dd830cd4d498584a15d4.pdf",
     "index.html": "/index.html",
     "main.542d4b1e.css.map": "/static/css/main.542d4b1e.css.map",
-    "main.9613cac5.js.map": "/static/js/main.9613cac5.js.map"
+    "main.a1265c77.js.map": "/static/js/main.a1265c77.js.map"
   },
   "entrypoints": [
     "static/css/main.542d4b1e.css",
-    "static/js/main.9613cac5.js"
+    "static/js/main.a1265c77.js"
   ]
 }
