@@ -1,6 +1,9 @@
 import React from "react";
+import Dropdown from "../dropdown/Dropdown";
+import { BiRightArrow } from "react-icons/bi";
 import "./portfolio.css";
 import Momo_img from "../../assets/portfolio/momo-logo.png";
+import Davila_img from "../../assets/portfolio/davila-logo.png";
 import Central_img from "../../assets/portfolio/central-logo.png";
 import Tl_img from "../../assets/portfolio/tl-logo.png";
 import This_site_img from "../../assets/portfolio/this-site-logo.png";
@@ -9,7 +12,7 @@ const portfolio_items = [
 	{
 		id: 1,
 		image: Momo_img,
-		img_alt: "Momomanga logo",
+		img_alt: "Momo Manga Café logo",
 		title: {
 			en: "Booking site for Momo Manga Café",
 			es: "Sitio de Reservas para Momo Manga Café",
@@ -19,6 +22,17 @@ const portfolio_items = [
 	},
 	{
 		id: 2,
+		image: Davila_img,
+		img_alt: "Maité Dávila's Artist Portfolio logo",
+		title: {
+			en: "Maité Dávila's Artist Portfolio",
+			es: "Portfolio de Artista de Maité Dávila",
+		},
+		repo: "https://github.com/beksiazek/portfolio-davila",
+		link: "https://portfolio-davila.web.app",
+	},
+	{
+		id: 3,
 		image: This_site_img,
 		img_alt: "This site's logo",
 		title: {
@@ -29,7 +43,7 @@ const portfolio_items = [
 		link: "",
 	},
 	{
-		id: 3,
+		id: 4,
 		image: Central_img,
 		img_alt: "Central TCG logo",
 		title: {
@@ -40,7 +54,7 @@ const portfolio_items = [
 		link: "",
 	},
 	{
-		id: 4,
+		id: 5,
 		image: Tl_img,
 		img_alt: "Towerlift logo",
 		title: {
@@ -77,31 +91,42 @@ export default function Portfolio(props) {
 									>
 										{title[language]}
 									</h3>
-									<div
-										className={
-											"portfolio__item-cta" +
-											(repo === ""
-												? " center"
-												: link === ""
-												? " center"
-												: "")
-										}
-									>
-										{repo !== "" ? (
+									<div className={"portfolio__item-cta"}>
+										{repo !== "" && link !== "" ? (
+											<Dropdown
+												dropdownContent={{
+													title: text.links,
+													primaryStyle: true,
+													items: [
+														{
+															href: link,
+															text: text.to_site,
+															target: "_blank",
+															icon: <BiRightArrow />,
+														},
+														{
+															href: repo,
+															text: text.to_repo,
+															target: "_blank",
+															icon: <BiRightArrow />,
+														},
+													],
+												}}
+											/>
+										) : repo !== "" ? (
 											<a
 												href={repo}
 												target={"_blank"}
+												rel="noreferrer"
 												className="btn btn-primary"
 											>
 												{text.to_repo}
 											</a>
-										) : (
-											""
-										)}
-										{link !== "" ? (
+										) : link !== "" ? (
 											<a
 												href={link}
 												target={"_blank"}
+												rel="noreferrer"
 												className="btn btn-primary"
 											>
 												{text.to_site}

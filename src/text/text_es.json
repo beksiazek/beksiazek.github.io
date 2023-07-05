@@ -73,6 +73,7 @@
 	"portfolio": {
 		"line1": "Trabajos recientes",
 		"line2": "Portfolio",
+		"links": "Links de este Proyecto",
 		"to_repo": "Repo en Github",
 		"to_site": "Ir al Sitio"
 	},

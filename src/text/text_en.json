@@ -70,6 +70,7 @@
 	"portfolio": {
 		"line1": "My Recent Work",
 		"line2": "Portfolio",
+		"links": "Links for this Project",
 		"to_repo": "Github Repo",
 		"to_site": "Go to the Site"
 	},
