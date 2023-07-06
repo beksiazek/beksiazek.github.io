@@ -15,7 +15,7 @@ export default function About(props) {
 				<div className="about__me">
 					<div className="about__me-image">
 						<div className="about-img-mask">
-							<img src={ME} alt="About image" />
+							<img src={ME} alt="Bald cartoon character" />
 						</div>
 					</div>
 				</div>

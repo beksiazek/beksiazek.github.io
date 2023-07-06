@@ -38,7 +38,7 @@ export default function Contact(props) {
 									)}
 									<h4>{title}</h4>
 									<h5>{subtitle}</h5>
-									<a href={ref} target={"_blank"}>
+									<a href={ref} target={"_blank"} rel="noreferrer">
 										{text.btn}
 									</a>
 								</article>
