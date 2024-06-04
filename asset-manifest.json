@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbcd5847.css",
-    "main.js": "/static/js/main.4e786762.js",
+    "main.css": "/static/css/main.f92fcd3a.css",
+    "main.js": "/static/js/main.ea67b537.js",
     "static/media/CV-BrianKsiazek(ES).pdf": "/static/media/CV-BrianKsiazek(ES).1e4455c22092ff8ee319.pdf",
     "static/media/CV-BrianKsiazek(EN).pdf": "/static/media/CV-BrianKsiazek(EN).b3d91febf6a36544340e.pdf",
     "static/media/davila-logo.png": "/static/media/davila-logo.934e0e50456d793f1dda.png",
@@ -12,11 +12,11 @@
     "static/media/me.png": "/static/media/me.fbed7babe3b0c7fe9035.png",
     "static/media/central-logo.png": "/static/media/central-logo.e630dc1b46e84129a92e.png",
     "index.html": "/index.html",
-    "main.cbcd5847.css.map": "/static/css/main.cbcd5847.css.map",
-    "main.4e786762.js.map": "/static/js/main.4e786762.js.map"
+    "main.f92fcd3a.css.map": "/static/css/main.f92fcd3a.css.map",
+    "main.ea67b537.js.map": "/static/js/main.ea67b537.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbcd5847.css",
-    "static/js/main.4e786762.js"
+    "static/css/main.f92fcd3a.css",
+    "static/js/main.ea67b537.js"
   ]
 }
